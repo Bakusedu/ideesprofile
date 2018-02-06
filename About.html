@@ -1,24 +1,106 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Bio</title>
-		<link rel="Stylesheet" type="text/Css" href="css/css2.css" />
-	</head>
-	<body>
-		<ul>
-				<li><a href="index.html"><img id="imlittle"src="images/arrow.png"></a></li>
-				<li><a href="About.html">About</a></li>
-				<li>Contact &nbsp;@</li>
-				<li><a href="http://twitter.com/kingidee"><img id="imlittle"src="images/twitter.jpg"></a></li>
-				<li><a href="http://github.com/kingidee"><img id="imlittle" src="images/24.png" /></a></li>
-				<li><a href="http://medium.com/@idee4ril">My Blog</a></li>
-				<li><a href="http://web.facebook.com/Idee4ril"><img id="imlittle" src="images/facebook.png"></a></li>
-		</ul>
-		<div id="clear"></div>
-		<img id="img" src="images/ideeimg.jpg" />
-		<img id="img" src="images/google.jpg" />
-		<p>Idorenyin Obong is from Akwa Ibom State,he is <br/>a graduate of Computer Science from the University of Cross River State(CRUTECH).He is an Android Developer,<br/> A Blogger , A Tech Writer and also an Andela(ALC)Facilitator,Google certified.
-		Idee as he is profoundly called,is a guru in the Tech Community<br/> in Cross River and its neighbouring state where he is from.Idee has featured in different code bootcamps as a guest speaker showing his level of expertise;<br/>
-	    he is a dynamic fellow,always ready to learn anytime,anywhere!</p>
-	</body>
+ <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>About</title>
+	 <style>
+		*{
+		  margin:0;
+		  padding:0;
+		 }
+		 body {
+				background-color:black;
+				background-size:cover;
+				width:100%;
+				height:100%;
+				font-family:sans-serif;
+				color:white;
+				opacity:5px;
+			  }
+		 a    {
+				text-decoration:none;
+				margin-left:27px;
+				padding-left:20px;
+				color:lightgrey;
+			   }
+			   #image1 {
+			   	margin:30px;
+			   	border-radius:12px;
+			   	width:500px;
+			   }
+			   #image2 {
+			   	margin-left:100px;
+			   }
+		 #position {
+		 	margin-top:10px;
+		 	margin-bottom:20px;
+		 }
+		 p {
+		 	margin:12px;
+		 }
+
+
+		/*media style*/
+
+
+
+		@media only screen and (max-width:640px){
+				body{
+					width:300px;
+					height:400px;
+					background-size:cover;
+					background-position:center;
+				}
+		a    {
+				text-decoration:none;
+				margin-left:27px;
+				padding-left:20px;
+				color:white;
+			   }
+		#position {
+		 	margin-top:20px;
+		         }
+		#image1  {
+			margin:5px;
+			border-radius:4px;
+			width:250px;
+		}
+		#image2 {
+			border-radius:50px;
+			margin:5px;
+		}
+		p {
+			margin-left:10px;
+			margin-top:20px;
+			border:1px solid lightgrey;
+			padding:5px;
+			border-radius:4px;
+		}
+		#borders {
+		 	border:2px solid lightgrey;
+		 	margin-left:35px;
+		 	border-radius:10px;
+		 }
+	}
+
+	  </style>
+<body>
+<div id="position">
+ <nav>
+  <a href="index.html">Home</a> 
+  <a href="About.html">About</a> 
+  <a href="Portfolio.html">Portfolio</a> 
+ </nav>
+</div>
+<div id="borders">
+ <img id="image1" src="images/ideeimg.jpg"  width="300px" height="300px"/>
+<div>
+ <p>I am from Akwa Ibom state, a Graduate of Computer Science from the University of Cross River State
+ (CRUTECH).<br />i am an Andoid Developer,a Tech-Writer and also an Andela(ALC)Facilitator.</p><p>My friends call me Idee,I have  featured in different code bootcamps as a guest speaker showing my level of expertise; i am a dynamic dude,always ready to learn.This is me!! </p>
+</div>
+  <img id="image2" src="images/Andela.jpg" width="120px" height="70px" />
+  <img  src="images/google.jpg" width="100px" height="70px" />
+</div>
+</body>
 </html>
